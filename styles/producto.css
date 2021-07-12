@@ -1,0 +1,241 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+/*estilos de la pag*/
+body,
+button {
+   font-family: 'Roboto', sans-serif;
+   background-color: #f1dfd1;
+   background-image: linear-gradient(315deg, #f1dfd1 0%, #f6f0ea 74%);
+   }
+
+/*barra de arriba- incio encabezado*/
+#encabezado {
+    width: 100%;
+    height: 10vh;
+    margin: auto;
+    position:absolute;
+    background-color: #fff;}
+ 
+   /*nombre central*/
+   .sukha__titulo {
+    color: rgb(180, 130, 107);
+    font-size: 400%; 
+    text-align: center; 
+    background-color: #fff;
+    margin-right: 8px;
+ }
+ 
+    .links {
+        list-style-type: none; 
+        display: flex;
+        flex-direction: row;
+        justify-content:space-around;
+        align-items: center;
+       
+        background-color: #fff;
+        overflow: hidden;
+    
+         color: rgb(53, 26, 31);
+         font-size: 110%;
+         text-decoration:none;
+         background-color: #fff; }
+       
+        }
+    
+         
+     
+     .links ul{
+        display: flex;
+        margin: 0;
+        padding: 0;
+     }
+     
+     .links li a{
+        display:block;
+        padding: 1rem;
+        color: rgb(53, 26, 31);
+     }
+     
+     .links li :hover {
+        background-color: rgb(226, 185, 166) ;
+      transition: background-color 1.2s ease;
+     }
+     
+     .hamburguesa-button{
+        position: absolute;
+        top: 0.75rem;
+        right: 1rem;
+        display: none;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 30px;
+        height: 21px;
+     }
+     .hamburguesa-button .bar{
+        height: 4px;
+        width:100%;
+        background-color: rgb(180, 130, 107);
+        border-radius: 10px;
+     }
+     .links:target{
+     display: flex;
+     }
+     
+     
+     
+     @media (max-width:650px) {
+        .navLinks{
+           flex-direction: column;
+           align-items: flex-start;
+        }
+        .hamburguesa-button{
+           display: flex; 
+        }
+        .links{
+           display: none;
+           width: 100%;
+        }
+        .links ul {
+           width: 100%;
+           flex-direction:column;
+        }
+        .links ul li {
+           text-align: center;
+        }
+        .links ul li a {
+           padding:0.5rem 1rem;
+        }
+     }
+
+    
+    
+.velas { 
+     margin-left: 10rem;
+     margin-right: 10rem;
+    
+     /*display: grid;
+     grid-template-areas:
+      "div abundancia" "div amor" "div intuicion";
+     grid-template-columns:120px 120px 120px;
+     grid-template-rows: 150px 150px 150px;
+     justify-content: center; 
+
+     grid-column-gap: 25px;
+     grid-row-gap: 15px;
+    
+     justify-items: center; 
+     align-items: stretch; 
+     background-color: #fff;
+     width: 95%;
+     
+     box-sizing: border-box;*/
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+    
+ .velas .velas__abundancia {
+      padding: 5px;
+       background-color: #fff;
+       margin-top: 9rem;
+       padding: 10px;
+   }
+
+  .velas__abundancia__titulo{
+       color: rgb(180, 130, 107);
+       font-size: 19px;
+       text-align: center;
+  }
+  
+  .velas__abundancia__p{
+       font-size: 15px;
+       text-align: justify;
+       
+
+    }
+  
+   .velas__abundancia__img{
+       margin-left: 35px;
+   }
+       
+    
+    .velas__intuicion{
+       padding: 5px;
+       background-color: #fff;
+       margin-top: 9rem;
+       padding: 10px;
+   }
+    .velas__intuicion__titulo{
+       color: rgb(180, 130, 107);
+       font-size: 19px;
+       text-align:center ;
+    }
+    .velas__intuicion__p{
+       font-size: 15px;
+       text-align: justify;
+    }
+    .velas__intuicion__img{
+        margin-left: 35px;
+    }
+   
+   
+    .velas__amor{
+       padding: 5px;
+       background-color: #fff;
+       margin-top: 9rem;
+       padding: 10px;
+    }
+    
+    .velas__amor__titulo{
+        color: rgb(180, 130, 107); 
+        font-size: 19px;
+        text-align:center ;
+    }
+    .velas__amor__p{
+       font-size: 15px;
+       text-align: justify;
+    }
+    .velas__amor__img{
+        margin-left: 35px;
+
+    }
+    .button{
+      border:none;
+      color: rgb(180, 130, 107); 
+      border-radius: 3px;
+      font-size: 16px;
+      margin: 10px auto;
+      cursor: pointer;
+      font-size: 13px;
+      margin:auto
+    }
+    
+    @media screen and (max-width:1100px){
+      .velas{
+        flex-direction: row;
+      }
+    }
+    @media screen and (max-width:850px){
+      .velas{
+        
+        flex-direction: column;
+      }
+    }
+    @media screen and (max-width:450px){
+      .velas{
+        
+        flex-direction: column;
+      }
+    }
+    @media screen and (max-width:300px){
+      .velas{
+        
+        flex-direction: column;
+      }
+    }
+
+    
+    

@@ -1,0 +1,75 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/*estilos de la pag*/
+body,
+button {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f1dfd1;
+  background-image: linear-gradient(315deg, #f1dfd1 0%, #f6f0ea 74%);
+}
+
+/*barra de arriba- incio encabezado*/
+#encabezado {
+  width: 100%;
+  height: 10vh;
+  margin: auto;
+  position: absolute;
+  background-color: #fff;
+}
+
+/*nombre central*/
+.sukha__titulo {
+  color: #b4826b;
+  font-size: 400%;
+  text-align: center;
+  background-color: #fff;
+}
+
+/*links horizontales sesiones*/
+.links {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  background-color: #fff;
+  color: #351a1f;
+  font-size: 110%;
+  text-decoration: none;
+  background-color: #fff;
+}
+
+.links ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.links li a {
+  display: block;
+  padding: 1rem;
+}
+
+.links li :hover {
+  background-color: #e2b9a6;
+  -webkit-transition: background-color 1.2s ease;
+  transition: background-color 1.2s ease;
+}
+/*# sourceMappingURL=nosotros.css.map */
