@@ -103,7 +103,7 @@ button {
 }
 
 @media (max-width: 650px) {
-  .navLinks {
+  .NavLinks {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;

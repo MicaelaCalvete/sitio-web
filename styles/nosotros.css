@@ -72,4 +72,55 @@ button {
   -webkit-transition: background-color 1.2s ease;
   transition: background-color 1.2s ease;
 }
+footer{
+  background-color: #d6c4b7;
+  height: auto;
+  width: 100vw;
+  font-family: 'Roboto', sans-serif;
+  padding-top: 10px;
+  color: rgb(53, 26, 31);
+ }
+ .footer_content{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+ text-align: center;
+ }
+ .footer_content h3{
+ font-size: 1.3rem;
+ font-weight: 300;
+ text-transform: capitalize;
+ line-height: 1rem;
+ margin-top: 1rem;
+ text-align: center;
+ }
+ .footer_content p{
+ max-width: 500px;
+ margin: 10px auto;
+ line-height: 20px;
+ font-size: 15px;
+ }
+ .redes{
+   list-style: none;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+ }
+ .redes li{
+   margin: 0 10px;
+ }
+ .footer_bottom{
+   background:#a39792;
+   width: 100%;
+   padding: 3px 0;
+   text-align: center;
+ }
+ .footer_bottom p{
+   font-size: 14px;
+   word-spacing: .3;
+   text-transform: capitalize;
+   margin-top: 1rem;
+ }
 /*# sourceMappingURL=nosotros.css.map */

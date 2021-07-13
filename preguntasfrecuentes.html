@@ -19,72 +19,105 @@
     
 </head>
 <body>
-    <header id="encabezado"> 
-        <div>
-            <h1 class="sukha__titulo">SUKHA</h1>
-         </div>
-        <nav class="NavLinks">
-          <a href=".links" class="hamburguesa-button">
-            <span class="bar"> </span>
-            <span class="bar"> </span>
-            <span class="bar"> </span>
-          </a>
-          <ul class="links">
-             <li>
-                <a href="index.html" class="links" data-title="Inicio"> 
-                   <span> 
-                      <span>
-                        Inicio 
-                      </span> 
-                   </span>
-                </a>
-             </li>  
-                  
-             <li>
-                <a href="productos.html" class="links"  data-title="producto">
-                    <span> 
-                       <span>
-                         Productos
-                       </span> 
+  <header id="encabezado"> 
+    <div>
+       <h1 class="sukha__titulo">SUKHA</h1>
+     </div>
+    <nav class="NavLinks">
+      <a href=".links" class="hamburguesa-button">
+        <span class="bar"> </span>
+        <span class="bar"> </span>
+        <span class="bar"> </span>
+      </a>
+      <ul class="links">
+         <li>
+            <a href="index.html" class="links" data-title="Inicio"> 
+               <span> 
+                  <span>
+                    Inicio 
+                  </span> 
+               </span>
+            </a>
+         </li>  
+              
+         <li>
+            <a href="productos.html" class="links"  data-title="producto">
+                <span> 
+                   <span>
+                     Productos
                    </span> 
-                </a>
-             </li>
-             <li> 
-               <a href="preguntasfrecuentes.html" class="links" data-title="preguntas frecuentes">
-                  <span> 
-                    <span>
-                      Preguntas Frecuentes 
-                    </span> 
-                  </span> 
-                </a> 
-              </li>
-              <li> 
-                <a href="nosotros.html" class="links" data-title="nosotros"> 
-                  <span> 
-                    <span>
-                      Nosotros 
-                    </span> 
-                  </span> 
-                </a>
-              </li> 
-              <li> 
-                <a href="contacto.html" class="links" data-title="contacto">
-                  <span> 
-                    <span>
-                      Contacto 
-                    </span> 
-                  </span>
-                </a>
-              </li>
-           </ul>
-        </nav>   
-      </header>
-      <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/>
+               </span> 
+            </a>
+         </li>
+         <li> 
+           <a href="preguntasfrecuentes.html" class="links" data-title="preguntas frecuentes">
+              <span> 
+                <span>
+                  Preguntas Frecuentes 
+                </span> 
+              </span> 
+            </a> 
+          </li>
+          <li> 
+            <a href="nosotros.html" class="links" data-title="nosotros"> 
+              <span> 
+                <span>
+                  Nosotros 
+                </span> 
+              </span> 
+            </a>
+          </li> 
+          <li> 
+            <a href="contacto.html" class="links" data-title="contacto">
+              <span> 
+                <span>
+                  Contacto 
+                </span> 
+              </span>
+            </a>
+          </li>
+       </ul>
+    </nav>   
+  </header> <br>
+      
     
 
     <div class="caja">
-        <h1 class="caja__titulo">Preguntas Frecuentes</h1> 
-            <div class="caja__pregunta1">
+      <h1 class="caja__titulo">Preguntas Frecuentes</h1> 
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              PREGUNTA #1
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam non ad tempore! Eaque non et unde doloribus odit corporis impedit, harum ut asperiores quidem suscipit sapiente sit facere, sed Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore, molestiae quidem soluta sequi dicta ipsam rem necessitatibus veniam voluptatum aut veritatis minima sapiente deserunt repudiandae maiores. Perspiciatis magni eos rerum? <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              PREGUNTA #2
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate ipsum consequuntur voluptatem doloribus, commodi earum corrupti maiores similique ipsam omnis laboriosam eaque amet deleniti rerum quod eius delectus. Expedita, maiores?Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam repellat in esse inventore neque aliquid sapiente recusandae autem. Blanditiis quam harum sed dignissimos! Eaque repellendus incidunt possimus itaque iusto repellat.<code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              PREGUNTA #3
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis magni voluptatibus ducimus, magnam quos et maiores in doloremque! Sint consequatur sapiente aliquam dignissimos tempore, adipisci consequuntur alias assumenda placeat. Rerum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim suscipit nesciunt voluptate quo culpa excepturi praesentium architecto, blanditiis ipsa voluptates consequuntur officia error tempore adipisci, laborum quis repellat nostrum perspiciatis. <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+          </div>
+        </div>
+      </div>
+        
+           <!--<div class="caja__pregunta1">
                  <h3>pregunta</h3>
                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed earum dolores repellat? Quos incidunt, nesciunt earum harum porro sint sit aperiam dignissimos soluta amet et fugiat a saepe recusandae dolorum! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque nemo eveniet, totam odit porro facilis soluta, aliquid eos sint sunt libero ducimus nihil. Dolores, repellat? At temporibus voluptate consequatur labore.</p>
             </div>
@@ -104,19 +137,36 @@
                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti qui, laborum asperiores quibusdam doloribus doloremque earum dolorem dignissimos similique accusantium amet dolor voluptatem, voluptatibus incidunt nulla, provident sunt voluptatum? Unde?Lorem ipsum dolor sit amet consectetur adipisicing elit. A ullam autem ab ut dolorem odio distinctio tempore, adipisci vel dolore laborum eum sit fugit perferendis tenetur officia excepturi quia? Minus.</p>
              </div>
      </div>
+
+           --> 
      
-    <div class="redes">
-        
-        <img src="logos/instagram.svg" class="bordesredondeados imgchica" alt="imagen de diseño" 
-        width="30px" 
-        height="30px" />
-        <img src="logos/pinterest.svg" class="bordesredondeados imgchica" alt="imagen de diseño" 
-        width="30px" 
-        height="30px" />
-        <img src="logos/facebook.svg" class="bordesredondeados imgchica" alt="imagen de diseño" 
-        width="30px" 
-        height="30px" />
-     </div> 
+    <footer>
+      <div class="footer_content">
+        <h3>SUKHAVELAS</h3>
+        <P>Seguinos en nuestras redes sociales!</P>
+        <ul class="redes">
+          <li>
+            <img src="logos/instagram.svg" class="bordesredondeados imgchica" alt="imagen de diseño" 
+          width="30px" 
+          height="30px" />
+          </li>
+          <li>
+            <img src="logos/pinterest.svg" class="bordesredondeados imgchica" alt="imagen de diseño" 
+          width="30px" 
+          height="30px" />
+          </li>
+          <li>
+            <img src="logos/facebook.svg" class="bordesredondeados imgchica" alt="imagen de diseño" 
+          width="30px" 
+          height="30px" />
+          </li>
+        </ul>
+      </div>
+      <div class="footer_bottom">
+        <p>copyright &copy;2021 </p>
+      </div>
+    </footer>
+       
 </body>
 
 </html>
