@@ -19,115 +19,87 @@
     
 </head>
 <body>
-    <header id="encabezado"> 
-        <div>
-           <h1 class="sukha__titulo">SUKHA</h1>
-         </div>
-        <nav class="NavLinks">
-          <a href=".links" class="hamburguesa-button">
-            <span class="bar"> </span>
-            <span class="bar"> </span>
-            <span class="bar"> </span>
-          </a>
+   <header id="encabezado"> 
+      <div>
+            <h1 class="sukha__titulo">SUKHA</h1>
+      </div>
+      <nav class="NavLinks">
+        <a href="#links" class="hamburguesa-button">
+          <span class="bar"> </span>
+          <span class="bar"> </span>
+          <span class="bar"> </span>
+        </a>
+        <div id="links">
           <ul class="links">
-             <li>
-                <a href="index.html" class="links" data-title="Inicio"> 
-                   <span> 
-                      <span>
-                        Inicio 
-                      </span> 
-                   </span>
-                </a>
-             </li>  
-                  
-             <li>
-                <a href="productos.html" class="links"  data-title="producto">
-                    <span> 
-                       <span>
-                         Productos
-                       </span> 
-                   </span> 
-                </a>
-             </li>
-             <li> 
-               <a href="preguntasfrecuentes.html" class="links" data-title="preguntas frecuentes">
-                  <span> 
+            <li>
+              <a href="index.html"  data-title="Inicio"> 
+                <span> 
                     <span>
-                      Preguntas Frecuentes 
+                      Inicio 
                     </span> 
+                </span>
+              </a>
+            </li>  
+                
+           <li>
+              <a href="productos.html"  data-title="producto">
+                  <span> 
+                     <span>
+                       Productos
+                     </span> 
+                 </span> 
+              </a>
+           </li>
+           <li> 
+             <a href="preguntasfrecuentes.html"  data-title="preguntas frecuentes">
+                <span> 
+                  <span>
+                    Preguntas Frecuentes 
                   </span> 
-                </a> 
-              </li>
-              <li> 
-                <a href="nosotros.html" class="links" data-title="nosotros"> 
-                  <span> 
-                    <span>
-                      Nosotros 
-                    </span> 
+                </span> 
+              </a> 
+            </li>
+            <li> 
+              <a href="nosotros.html"  data-title="nosotros"> 
+                <span> 
+                  <span>
+                    Nosotros 
                   </span> 
-                </a>
-              </li> 
-              <li> 
-                <a href="contacto.html" class="links" data-title="contacto">
-                  <span> 
-                    <span>
-                      Contacto 
-                    </span> 
-                  </span>
-                </a>
-              </li>
-           </ul>
-        </nav>   
-      </header> <h1>PRODUCTOS</h1>
+                </span> 
+              </a>
+            </li> 
+            <li> 
+              <a href="contacto.html"  data-title="contacto">
+                <span> 
+                  <span>
+                    Contacto 
+                  </span> 
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>   
+    </header> <h1>PRODUCTOS</h1>
      
      
 
-   <section class="velas">
-      <div class="velas__abundancia">
-            <h2 class="velas__abundancia__titulo"> 
-               VELA ABUNDANCIA 
-            </h2> 
-                  <div>
-                     <P class="velas__abundancia__p">
-                        "tu creas tu propio universo a medida de que avanzas". Pensada para acompañarte en esos momentos de estudio o trabajo, una vela mágica que manifiesta para traer buena fortuna.
-                              Con citrinos y cascara de naranja para atraer abundancia y prosperidad.
-                           </P>
-                              <br/>
-                           <img src="img/velaAbundancia.jpeg" class="velas__abundancia__img"
-                              alt="imagen de diseño"
-                              width="220px" 
-                              height="220px">
-                  </div> 
-                  <div class="carrito">
-                     <br/> 
-                     <button class="button" > 
-                        Agregar al carrito
-                     </button>
-                     <button class="button"> 
-                        Leer mas
-                     </button>
-                  </div>  
-                                 <br/>
-      </div> 
-    
-       
-      <div class="velas__intuicion">
-         <h2 class="velas__intuicion__titulo">
-            VELA INTUICION
-         </h2> 
-            <div>
-               <P class="velas__intuicion__p">
-                  "la intuición es el alma que nos habla". Esta vela te ayudará a despertar esa energía intuitiva, la que encarna poder y protección.
-                   Compuesta por flores de lavanda y amatistas, perfumada con un aroma penetrante de lavanda mentolada para una experiencia intuitiva y relajante. 
-               </P>
-                   <br/>
-               <img src="img/velaIntuicion.jpeg" class="velas__intuicion__img"
-                  alt="imagen de diseño" 
-                  width="220px" 
-                  height="220px" />  
-            </div>
-         
-            <div class="carrito">
+   
+  
+   <section id="velas">
+      <div class="card-group">
+         <div class="card">
+         <div class="velas__amor">
+            
+            <div class="card-body">
+               <img src="img/velaRitualDeAmor.jpeg" class="velas__amor__img"
+               alt="imagen de diseño" width="220px" 
+               height="220px">
+               <h5 class="velas__amor__titulo">VELA RITUAL DE AMOR</h5>
+               <p class="velas__amor__p"> "nadie puede dar lo que no tiene". Por esta razón, esta vela fue creada para que te abraces y encuentres ese amor cada vez que la prendas.
+               Contiene cuarzos rosas de diferentes tamaños y pétalos de rosas secos. Perfumado con un aroma a coco dulce y rosa vainilla especialmente pensada para crear un espacio de energía cálida y de mucho amor.</P>
+               
+               <div class="carrito">
                <br/>
                <button class="button" > 
                   Agregar al carrito
@@ -135,39 +107,59 @@
                <button class="button"> 
                   Leer mas
                </button>
-            </div>  
-      </div> 
-   
-       
-    
-      <div class="velas__amor">
-         <h2 class="velas__amor__titulo">
-            VELA RITUAL DE AMOR
-         </h2> 
-         <div>
-            <P class="velas__amor__p"> 
-               "nadie puede dar lo que no tiene". Por esta razón, esta vela fue creada para que te abraces y encuentres ese amor cada vez que la prendas.
-               Contiene cuarzos rosas de diferentes tamaños y pétalos de rosas secos. Perfumado con un aroma a coco dulce y rosa vainilla especialmente pensada para crear un espacio de energía cálida y de mucho amor.
-            </P>
-               <br/>
-            <img src="img/velaRitualDeAmor.jpeg" class="velas__amor__img"
-               alt="imagen de diseño" 
+              </div> 
+            </div>
+         </div> 
+       </div>
+       <div class="card">
+         <div class="velas__intuicion">
+               
+            <div class="card-body">
+               <img src="img/velaIntuicion.jpeg" class="velas__intuicion__img"
+               alt="imagen de diseño" width="220px" 
+               height="220px" /> 
+               <h5 class="velas__intuicion__titulo">VELA INTUICION</h5>
+               <p class="velas__intuicion__p"> "la intuición es el alma que nos habla". Esta vela te ayudará a despertar esa energía intuitiva, la que encarna poder y protección.
+               Compuesta por flores de lavanda y amatistas, perfumada con un aroma penetrante de lavanda mentolada para una experiencia intuitiva y relajante. </P>
+               
+                  <div class="carrito">
+                  <br/>
+                  <button class="button" > 
+                  Agregar al carrito
+                  </button>
+                  <button class="button"> 
+                  Leer mas
+                  </button>
+                  </div>
+            </div>
+          </div>
+      </div>
+      <div class="card">
+         <div class="velas__abundancia">
+            
+            <div class="card-body">
+               <img src="img/velaAbundancia.jpeg" class="velas__abundancia__img"
+               alt="imagen de diseño"
                width="220px" 
-               height="220px" />
-         </div>
-         
-         <div class="carrito">
+               height="220px"><h5 class="velas__abundancia__titulo">VELA ABUNDANCIA</h5>
+               <p class="velas__abundancia__p">"tu creas tu propio universo a medida de que avanzas". Pensada para acompañarte en esos momentos de estudio o trabajo, una vela mágica que manifiesta para traer buena fortuna.
+               Con citrinos y cascara de naranja para atraer abundancia y prosperidad.</P>
+            
+            
+            <div class="carrito">
             <br/>
                <button class="button" > 
-                  Agregar al carrito
-               </button>
-               <button class="button"> 
-                  Leer mas
-               </button>
+               Agregar al carrito
+            </button>
+            <button class="button"> 
+            Leer mas
+            </button>
+            </div> 
          </div>
       </div>
+      </div>
+         
    </section>
-       
          
      
    <footer>

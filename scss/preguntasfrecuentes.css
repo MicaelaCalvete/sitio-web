@@ -147,6 +147,12 @@ button {
   text-align: center;
 }
 
+.caja .caja__p{
+     text-align: center;
+     margin: 2rem ;
+}
+
+
 footer {
   background-color: #cf6e24;
   height: auto;

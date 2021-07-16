@@ -31,7 +31,7 @@ button {
   margin-right: 8px;
 }
 
-.links {
+#links {
   list-style-type: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -49,14 +49,14 @@ button {
   overflow: hidden;
 }
 
-.links {
+#links {
   color: #351a1f;
   font-size: 110%;
   text-decoration: none;
   background-color: #fff;
 }
 
-.links ul {
+#links ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -64,13 +64,13 @@ button {
   padding: 0;
 }
 
-.links li a {
+#links li a {
   display: block;
   padding: 1rem;
   color: #351a1f;
 }
 
-.links li :hover {
+#links li :hover {
   background-color: #e2b9a6;
   -webkit-transition: background-color 1.2s ease;
   transition: background-color 1.2s ease;
@@ -99,14 +99,14 @@ button {
   border-radius: 10px;
 }
 
-.links:target {
+#links:target {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
 @media (max-width: 650px) {
-  .navLinks {
+  .NavLinks {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -120,21 +120,21 @@ button {
     display: -ms-flexbox;
     display: flex;
   }
-  .links {
+  #links {
     display: none;
     width: 100%;
   }
-  .links ul {
+  #links ul {
     width: 100%;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .links ul li {
+  #links ul li {
     text-align: center;
   }
-  .links ul li a {
+  #links ul li a {
     padding: 0.5rem 1rem;
   }
 }

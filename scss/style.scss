@@ -28,7 +28,7 @@ button {
     margin-right: 8px;
  }
  
-    .links {
+    #links{
         list-style-type: none; 
         display: flex;
         flex-direction: row;
@@ -41,25 +41,28 @@ button {
          color: rgb(53, 26, 31);
          font-size: 110%;
          text-decoration:none;
-         background-color: #fff; }
-       
+         background-color: #fff; 
       }
+       
+      
     
          
      
-     .links ul{
+      #links ul{
         display: flex;
         margin: 0;
         padding: 0;
+        text-decoration:none;
      }
      
-     .links li a{
+     #links li a{
         display:block;
         padding: 1rem;
         color: rgb(53, 26, 31);
      }
      
-     .links li :hover {
+     
+     #links li :hover {
         background-color: rgb(226, 185, 166) ;
       transition: background-color 1.2s ease;
      }
@@ -80,7 +83,7 @@ button {
         background-color: rgb(180, 130, 107);
         border-radius: 10px;
      }
-     .links:target{
+     #links:target{
      display: flex;
      }
      
@@ -94,18 +97,18 @@ button {
         .hamburguesa-button{
            display: flex; 
         }
-        .links{
+        #links{
            display: none;
            width: 100%;
         }
-        .links ul {
+        #links ul {
            width: 100%;
            flex-direction:column;
         }
-        .links ul li {
+        #links ul li {
            text-align: center;
         }
-        .links ul li a {
+        #links ul li a {
            padding:0.5rem 1rem;
         }
      }
@@ -185,4 +188,4 @@ button {
 @import 'inicio';
 @import 'header';
 
-   
+      }
