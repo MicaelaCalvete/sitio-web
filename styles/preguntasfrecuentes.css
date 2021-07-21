@@ -41,7 +41,7 @@ button {
       -ms-flex-direction: row;
           flex-direction: row;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+      justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -147,6 +147,9 @@ button {
   .caja__titulo{
     text-align: center;
   }
+.media{
+  margin: 3rem;
+}
 
 footer{
  background-color: #d6c4b7;
@@ -162,15 +165,9 @@ align-items: center;
 justify-content: center;
 flex-direction: column;
 text-align: center;
+margin-bottom: 1rem;
 }
-.footer_content h3{
-font-size: 1.3rem;
-font-weight: 300;
-text-transform: capitalize;
-line-height: 1rem;
-margin-top: 1rem;
-text-align: center;
-}
+
 .footer_content p{
 max-width: 500px;
 margin: 10px auto;

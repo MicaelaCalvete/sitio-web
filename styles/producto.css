@@ -315,15 +315,9 @@ button {
      justify-content: center;
      flex-direction: column;
      text-align: center;
+     margin-bottom: 1rem;
      }
-     .footer_content h3{
-     font-size: 1.3rem;
-     font-weight: 300;
-     text-transform: capitalize;
-     line-height: 1rem;
-     margin-top: 1rem;
-     text-align: center;
-     }
+
      .footer_content p{
      max-width: 500px;
      margin: 10px auto;
