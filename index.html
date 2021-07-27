@@ -16,7 +16,7 @@
          <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
-         <link rel="stylesheet" href="styles/style.css"/>
+         <link rel="stylesheet" href="scss/style.css"/>
          
          <!--SEO-->
          <meta name="description" content="Velas de cera de soja, 100% naturales y decoradas con hierbas y cuarzos ">
@@ -47,7 +47,7 @@
                 </a>
               </li>  
                   
-             <li>
+             <li class="nav-item">
                 <a href="productos.html"  data-title="producto">
                     <span> 
                        <span>
@@ -56,7 +56,7 @@
                    </span> 
                 </a>
              </li>
-             <li> 
+             <li class="nav-item"> 
                <a href="preguntasfrecuentes.html"  data-title="preguntas frecuentes">
                   <span> 
                     <span>
@@ -65,7 +65,7 @@
                   </span> 
                 </a> 
               </li>
-              <li> 
+              <li class="nav-item"> 
                 <a href="nosotros.html"  data-title="nosotros"> 
                   <span> 
                     <span>
@@ -74,7 +74,7 @@
                   </span> 
                 </a>
               </li> 
-              <li> 
+              <li class="nav-item"> 
                 <a href="contacto.html"  data-title="contacto">
                   <span> 
                     <span>
@@ -85,44 +85,140 @@
               </li>
             </ul>
           </div>
-        </nav>   
-      </header>
-          <br/><br/> <br/><br/> <br/> <br/>
+        </nav> 
+      </header><br/><br/><br/><br/><br/><br/>
+    
           <section id="Inicio">
-         
-           
-            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-             <div class="carousel-indicators">
-               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <div class="card  text-white">
+              <img src="img/carrusel222.jpg" class="card-img" alt="imagen">
+              <div class="card-img-overlay">
+                <h5 class="card-title">sukha.velas</h5>
+                <p class="card-text">Nuestras velas de soja están hechas con la intención de acompañarte en esos momentos de descanso y relajación. Diseñada para que, mediante los aromas y sensaciones, aprendas a valorar cada momento con conciencia y plenitud.</p>
+              </div>
+            </div>
               
-             </div>
-             <div class="carousel-inner">
-               <div class="carousel-item active">
-                 <img src="img/fotoPrinc.jpg" class="d-block w-100" alt="imagen">
-                 <div class="carousel-caption d-none d-md-block">
-                   <h5>sukha.velas</h5>
-                   <p>Nuestras velas de soja están hechas con la intención de acompañarte en esos momentos de descanso y relajación. Diseñada para que, mediante los aromas y sensaciones, aprendas a valorar cada momento con conciencia y plenitud.</p>
-                 </div>
-               </div>
-               <div class="carousel-item">
-                 <img src="img/carrusel2.jpg" class="d-block w-100" alt="imagen">
-                 <div class="carousel-caption d-none d-md-block">
-                   <h5>sukha.velas</h5>
-                   <p>Nuestras velas de soja están hechas con la intención de acompañarte en esos momentos de descanso y relajación. Diseñada para que, mediante los aromas y sensaciones, aprendas a valorar cada momento con conciencia y plenitud.</p>
-                 </div>
-               </div>
-               
-             </div>
-             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-               <span class="visually-hidden">Previous</span>
-             </button>
-             <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-               <span class="carousel-control-next-icon" aria-hidden="true"></span>
-               <span class="visually-hidden">Next</span>
-             </button>
-           </div>
+            <div class="comentarios">
+                ​<div class="box">
+                  <article class="media">
+                    <div class="media-content">
+                      <div class="content">
+                        <p>
+                          <strong>John Smith</strong> <small>@johnsmith</small> <small>31m</small>
+                          <br>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.
+                        </p>
+                      </div>
+                      <nav class="level is-mobile">
+                        <div class="level-left">
+                          <a class="level-item" aria-label="reply">
+                            <span class="icon is-small">
+                              <i class="fas fa-reply" aria-hidden="true"></i>
+                            </span>
+                          </a>
+                          <a class="level-item" aria-label="retweet">
+                            <span class="icon is-small">
+                              <i class="fas fa-retweet" aria-hidden="true"></i>
+                            </span>
+                          </a>
+                          <a class="level-item" aria-label="like">
+                            <span class="icon is-small">
+                              <i class="fas fa-heart" aria-hidden="true"></i>
+                            </span>
+                          </a>
+                        </div>
+                      </nav>
+                    </div>
+                  </article>
+                </div>
+                <div class="box">
+                  <article class="media">
+                    <div class="media-content">
+                      <div class="content">
+                        <p>
+                          <strong>John Smith</strong> <small>@johnsmith</small> <small>31m</small>
+                          <br>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.
+                        </p>
+                      </div>
+                      <nav class="level is-mobile">
+                        <div class="level-left">
+                          <a class="level-item" aria-label="reply">
+                            <span class="icon is-small">
+                              <i class="fas fa-reply" aria-hidden="true"></i>
+                            </span>
+                          </a>
+                          <a class="level-item" aria-label="retweet">
+                            <span class="icon is-small">
+                              <i class="fas fa-retweet" aria-hidden="true"></i>
+                            </span>
+                          </a>
+                          <a class="level-item" aria-label="like">
+                            <span class="icon is-small">
+                              <i class="fas fa-heart" aria-hidden="true"></i>
+                            </span>
+                          </a>
+                        </div>
+                      </nav>
+                    </div>
+                  </article>
+                </div>
+                <div class="box">
+                  <article class="media">
+                    <div class="media-content">
+                      <div class="content">
+                        <p>
+                          <strong>John Smith</strong> <small>@johnsmith</small> <small>31m</small>
+                          <br>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.
+                        </p>
+                      </div>
+                      <nav class="level is-mobile">
+                        <div class="level-left">
+                          <a class="level-item" aria-label="reply">
+                            <span class="icon is-small">
+                              <i class="fas fa-reply" aria-hidden="true"></i>
+                            </span>
+                          </a>
+                          <a class="level-item" aria-label="retweet">
+                            <span class="icon is-small">
+                              <i class="fas fa-retweet" aria-hidden="true"></i>
+                            </span>
+                          </a>
+                          <a class="level-item" aria-label="like">
+                            <span class="icon is-small">
+                              <i class="fas fa-heart" aria-hidden="true"></i>
+                            </span>
+                          </a>
+                        </div>
+                      </nav>
+                    </div>
+                  </article>
+                </div>
+                <div class="box">
+                  <article class="media">
+                    <div class="media-content">
+                      <div class="content">
+                        <p>
+                          <strong>John Smith</strong> <small>@johnsmith</small> <small>31m</small>
+                          <br>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.
+                        </p>
+                      </div>
+                     </nav>
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card text-center">
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+            
        </section>      
         
    
@@ -152,5 +248,6 @@
             <p>copyright &copy;2021 </p>
           </div>
         </footer> 
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
   </body>
 </html>

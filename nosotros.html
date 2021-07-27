@@ -10,9 +10,9 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">  
     <!--bs y estilos-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
-    <link rel="stylesheet" href="styles/nosotros.css"> 
+    <link rel="stylesheet" href="scss/nosotros.css"> 
     <!--SEO-->
     <meta name="description" content="Acerca de Sukha, sus productos y las personas que estan detras de esta marca ">
     <meta name="keywords"  content="VELAS, CERA DE SOJA, AROMAS, CUARZOS, VELAS AROMATICAS">
@@ -42,7 +42,7 @@
             </a>
           </li>  
               
-         <li>
+         <li class="nav-item">
             <a href="productos.html"  data-title="producto">
                 <span> 
                    <span>
@@ -51,7 +51,7 @@
                </span> 
             </a>
          </li>
-         <li> 
+         <li class="nav-item"> 
            <a href="preguntasfrecuentes.html"  data-title="preguntas frecuentes">
               <span> 
                 <span>
@@ -60,7 +60,7 @@
               </span> 
             </a> 
           </li>
-          <li> 
+          <li class="nav-item"> 
             <a href="nosotros.html"  data-title="nosotros"> 
               <span> 
                 <span>
@@ -69,7 +69,7 @@
               </span> 
             </a>
           </li> 
-          <li> 
+          <li class="nav-item"> 
             <a href="contacto.html"  data-title="contacto">
               <span> 
                 <span>
@@ -80,16 +80,47 @@
           </li>
         </ul>
       </div>
-    </nav>   
-  </header> <br/><br/> <br/> <br/> <br/>  <br/><br/> <br/> <br/> <br/> 
-  
-     <h1>Nosotros</h1>
-      <div class="parrafos">
-          <P class="p1"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio a, velit impedit dolore quia optio. Sed quam ducimus modi exercitationem molestias, voluptates dolores debitis hic repellat magni dicta distinctio praesentium.</P> 
-     <p class="p2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad ex ipsam voluptatibus, voluptate corrupti laboriosam, suscipit vel ducimus, nihil nemo perspiciatis maxime atque ullam architecto qui deleniti natus commodi dicta?</p>
-     <p class="p3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate libero vero id reprehenderit maiores temporibus sequi, culpa explicabo laboriosam rerum iure doloremque, eos harum numquam ea ratione obcaecati distinctio dolor.</p>
+    </nav> 
+  </header> <br><br><br>
+
+      
+      <div class="row align-items-center">
+        <div class="col">
+          <div class="col1">
+            <h1>QUIENES SOMOS</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate expedita quae explicabo illo ipsam saepe ex ut alias eligendi ea facilis rem eaque natus optio possimus repellat, molestias corporis pariatur.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, eius? Atque consequatur optio enim voluptatibus repudiandae asperiores exercitationem quo impedit quis ipsam, dolorem fugiat voluptatum tempore? Dignissimos esse odio perspiciatis.</p>
+          </div>  
+        </div>
+        <div class="col">
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/111.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/222.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/333.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
       </div>
-  
      
       <footer>
         <div class="footer_content">
@@ -117,5 +148,6 @@
           <p>copyright &copy;2021 </p>
         </div>
       </footer> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 </body>
 </html>

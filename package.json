@@ -3,12 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
+   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "MIndex": "sass --watch scss/style.scss styles/style.css",
     "MPregFre":"sass --watch scss/preguntasfrecuentes.scss styles/preguntasfrecuentes.css",
-    "MNosotros":"sass --watch scss/preguntasfrecuentes.scss styles/preguntasfrecuentes.css ",
-    "MContacto":"sass --watch scss/contacto.scss styles/contacto.css",
+    "MNosotros":"sass --watch scss/nosotros.scss styles/preguntasfrecuentes.css ",
+    "MContacto":"sass --watch scss/contacto.scss styles/contacto.css"
   },
   "repository": {
     "type": "git",

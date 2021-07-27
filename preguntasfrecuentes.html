@@ -10,9 +10,9 @@
       <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">  
       <!--bs y estilos-->
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+      
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
-      <link rel="stylesheet" href="styles/preguntasfrecuentes.css"> 
+      <link rel="stylesheet" href="scss/preguntasfrecuentes.css"> 
       <!--SEO-->
       <meta name="description" content="Presentacion de nuestras velas">
       <meta name="keywords"  content="VELAS, CERA DE SOJA, AROMAS, CUARZOS, VELAS AROMATICAS">
@@ -83,107 +83,57 @@
     </nav>   
   </header><br>
       
-    
 
-    <div class="caja">
-     
-       <h1 class="caja__titulo">Preguntas Frecuentes</h1> 
-       <p class="caja__p">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati reprehenderit quas tempora officiis blanditiis iure eius, distinctio commodi itaque voluptatibus ad, illum ullam expedita accusantium possimus nihil autem incidunt esse?</p>
-    </div> 
-      
-
-      <article class="media">
-        <figure class="media-left">
-          <p class="image is-64x64">
-            <img src="img/jarritos-mexican-soda-NwMrFSMP15Q-unsplash.jpg">
-          </p>
-        </figure>
-        <div class="media-content">
-          <div class="content">
-            <p>
-              <strong>Barbara Middleton</strong>
-              <br>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis porta eros lacus, nec ultricies elit blandit non?
-              <br>
-              <small><a>Like</a> · <a>Reply</a> · 3 hrs</small>
-            </p>
+  <section class="preguntas">
+    <div class="tile is-ancestor">
+      <div class="tile is-vertical is-8">
+        <div class="tile">
+          <div class="tile is-parent is-vertical">
+            <article class="tile is-child notification">
+              <p class="title">Pregunta #1</p>
+              <p class="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates sunt atque dignissimos consectetur necessitatibus maiores inventore nesciunt ut dolorem quaerat optio, error iusto nihil, ea impedit reprehenderit odit doloremque autem?</p>
+            </article>
+            <article class="tile is-child notification is-warning">
+              <p class="title">Pregunta #2</p>
+              <p class="subtitle">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus iste voluptates dolores nesciunt, debitis quisquam esse neque. </p>
+            </article>
           </div>
-      
-          <article class="media">
-            <figure class="media-left"  >
-              <p class="image is-48x48">
-                <img src="img/logoSUKHA.jpeg">
-              </p>
-            </figure>
-            <div class="media-content">
-              <div class="content">
-                <p>
-                  <strong>SUKHAVELAS</strong>
-                  <br>
-                  Donec sollicitudin urna eget eros malesuada sagittis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam blandit nisl a nulla sagittis, a lobortis leo feugiat.
-                  <br>
-                  <small><a>Like</a> · <a>Reply</a> · 2 hrs</small>
-                </p>
-              </div>
-            </div>
-          </article>
-          
-          <article class="media">
-            <figure class="media-left">
-              <p class="image is-64x64">
-                <img src="img/jarritos-mexican-soda-NwMrFSMP15Q-unsplash.jpg">
-              </p>
-            </figure>
-            <div class="media-content">
-              <div class="content">
-                <p>
-                  <strong>Barbara Middleton</strong>
-                  <br>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis porta eros lacus, nec ultricies elit blandit non?
-                  <br>
-                  <small><a>Like</a> · <a>Reply</a> · 3 hrs</small>
-                </p>
-              </div>
-          
-              <article class="media">
-                <figure class="media-left"  >
-                  <p class="image is-48x48">
-                    <img src="img/logoSUKHA.jpeg">
-                  </p>
-                </figure>
-                <div class="media-content">
-                  <div class="content">
-                    <p>
-                      <strong>SUKHAVELAS</strong>
-                      <br>
-                      Donec sollicitudin urna eget eros malesuada sagittis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam blandit nisl a nulla sagittis, a lobortis leo feugiat.
-                      <br>
-                      <small><a>Like</a> · <a>Reply</a> · 2 hrs</small>
-                    </p>
-                  </div>
-                </div>
-              </article>
-      
-      <article class="media">
-        <figure class="media-left">
-          <p class="image is-64x64">
-            <img src="https://bulma.io/images/placeholders/128x128.png">
-          </p>
-        </figure>
-        <div class="media-content">
-          <div class="field">
-            <p class="control">
-              <textarea class="textarea" placeholder="Add a comment..."></textarea>
-            </p>
-          </div>
-          <div class="field">
-            <p class="control">
-              <button class="button">Post comment</button>
-            </p>
+          <div class="tile is-parent">
+            <article class="tile is-child notification is-info">
+              <p class="title">Pregunta #3</p>
+              <p class="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero aliquam consequatur mollitia, hic dolor quos nostrum minima ex minus</p>
+              <figure class="image is-4by3">
+                <img src="img/SK.png" width="230px" 
+                height="195px">
+              </figure>
+            </article>
           </div>
         </div>
-      </article>
+        <div class="tile is-parent">
+          <article class="tile is-child notification is-danger">
+            <p class="title">Pregunta #4</p>
+            <p class="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci ea molestiae ipsum illum non neque rem aliquam ducimus nostrum maxime! Officiis tenetur eaque vel ipsum sunt? Excepturi ea in nam.</p>
+            <div class="content">
+              <!-- Content -->
+            </div>
+          </article>
+        </div>
+      </div>
+      <div class="tile is-parent">
+        <article class="tile is-child notification is-success">
+          <div class="content">
+            <p class="title"> Pregunta #5</p>
+            <p class="subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis recusandae voluptatum quia aut, minima rem dolorum ratione vitae fuga expedita libero nisi similique sit nostrum corrupti voluptates impedit et molestias.</p>
+            <div class="content">
+              <!-- Content -->
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
     
+
     <footer>
       <div class="footer_content">
         
@@ -210,7 +160,7 @@
         <p>copyright &copy;2021 </p>
       </div>
     </footer>
-       
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 </body>
 
 </html>

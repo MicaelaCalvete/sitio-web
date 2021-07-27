@@ -114,6 +114,8 @@ button {
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
+    position:absolute; z-index:99;
+    width: 100%;
   }
   .hamburguesa-button {
     display: -webkit-box;

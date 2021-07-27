@@ -139,18 +139,29 @@ button {
 /*PREGUNTAS FRECUENTES*/
 /*PREGUNTAS FRECUENTES*/
 
-.caja{
-  margin-top:9rem; 
-  font-family: 'Roboto', sans-serif;
-  color: rgb(161, 120, 101);
- }
-  .caja__titulo{
-    text-align: center;
-  }
-.media{
-  margin: 3rem;
+.preguntas{
+  margin: 9rem 3rem 3rem 3rem;
 }
-
+.notification{
+  background-color:#706763;
+  color: #f1c1db;
+}
+.notification.is-warning{
+  background-color:rgb(224, 189, 156);
+  color: #724736;
+}
+.notification.is-info{
+  background-color: #ECDCF8;
+  color:#b68c79 ;
+}
+.notification.is-success{
+  background-color: #c7a0a0;
+  color: #ebcbe1;
+}
+.notification.is-danger{
+  background-color: #724736;
+  color: #f1dfd1;
+}
 footer{
  background-color: #d6c4b7;
  height: auto;
