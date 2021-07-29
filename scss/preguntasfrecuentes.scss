@@ -19,11 +19,9 @@ button {
   height: 10vh;
   margin: auto;
   position: absolute;
-  background-color: #fff;
-  /*nombre central*/
-}
-
-#encabezado .sukha__titulo {
+  background-color: #fff;}
+/*nombre central*/
+.sukha__titulo {
   color: #b4826b;
   font-size: 400%;
   text-align: center;
@@ -31,45 +29,37 @@ button {
   margin-right: 8px;
 }
 
-#encabezado .links {
+#links {
   list-style-type: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-pack: distribute;
-      justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
   background-color: #fff;
   overflow: hidden;
+}
+
+#links {
   color: #351a1f;
   font-size: 110%;
   text-decoration: none;
   background-color: #fff;
 }
 
-.links ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
+#links ul {
   display: flex;
   margin: 0;
   padding: 0;
 }
 
-.links li a {
+#links li a {
   display: block;
   padding: 1rem;
   color: #351a1f;
 }
 
-.links li :hover {
+#links li :hover {
   background-color: #e2b9a6;
-  -webkit-transition: background-color 1.2s ease;
   transition: background-color 1.2s ease;
 }
 
@@ -78,13 +68,8 @@ button {
   top: 0.75rem;
   right: 1rem;
   display: none;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  flex-direction: column;
+  justify-content: space-between;
   width: 30px;
   height: 21px;
 }
@@ -96,47 +81,6 @@ button {
   border-radius: 10px;
 }
 
-.links:target {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-@media (max-width: 650px) {
-  .navLinks {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-  }
-  .hamburguesa-button {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  .links {
-    display: none;
-    width: 100%;
-  }
-  .links ul {
-    width: 100%;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .links ul li {
-    text-align: center;
-  }
-  .links ul li a {
-    padding: 0.5rem 1rem;
-  }
-}
-
-/*PREGUNTAS FRECUENTES*/
 /*PREGUNTAS FRECUENTES*/
 
 .preguntas{

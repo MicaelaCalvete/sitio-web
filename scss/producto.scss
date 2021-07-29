@@ -30,18 +30,10 @@ button {
     
     #links {
       list-style-type: none;
-      display: -webkit-box;
-      display: -ms-flexbox;
       display: flex;
-      -webkit-box-orient: horizontal;
-      -webkit-box-direction: normal;
-          -ms-flex-direction: row;
-              flex-direction: row;
-      -ms-flex-pack: distribute;
-          justify-content: space-around;
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-              align-items: center;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
       background-color: #fff;
       overflow: hidden;
     }
@@ -54,8 +46,6 @@ button {
     }
     
     #links ul {
-      display: -webkit-box;
-      display: -ms-flexbox;
       display: flex;
       margin: 0;
       padding: 0;
@@ -69,7 +59,6 @@ button {
     
     #links li :hover {
       background-color: #e2b9a6;
-      -webkit-transition: background-color 1.2s ease;
       transition: background-color 1.2s ease;
     }
     
@@ -78,13 +67,8 @@ button {
       top: 0.75rem;
       right: 1rem;
       display: none;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-          -ms-flex-direction: column;
-              flex-direction: column;
-      -webkit-box-pack: justify;
-          -ms-flex-pack: justify;
-              justify-content: space-between;
+      flex-direction: column;
+      justify-content: space-between;
       width: 30px;
       height: 21px;
     }
@@ -97,26 +81,17 @@ button {
     }
     
     #links:target {
-      display: -webkit-box;
-      display: -ms-flexbox;
       display: flex;
     }
     
     @media (max-width: 650px) {
       .NavLinks {
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
-        -webkit-box-align: start;
-            -ms-flex-align: start;
-                align-items:flex-start;
+        flex-direction: column;
+        align-items:flex-start;
         position:absolute; z-index:99;
         width: 100%;
       }
       .hamburguesa-button {
-        display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
       }
       #links {
@@ -125,10 +100,7 @@ button {
       }
       #links ul {
         width: 100%;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
+        flex-direction: column;
       }
       #links ul li {
         text-align: center;
