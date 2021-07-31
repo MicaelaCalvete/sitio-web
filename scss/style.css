@@ -2,7 +2,7 @@
   margin: 0%;
   padding: 0%;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 /*estilos de la pag*/
@@ -78,7 +78,7 @@ button {
 }
 
 .hamburguesa-button {
-  position: absolute;
+  position: absolute;z-index: 5;
   top: 0.75rem;
   right: 1rem;
   display: none;
@@ -115,8 +115,7 @@ button {
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
-    position: absolute;
-    z-index: 99;
+    position:absolute; z-index:99;
     width: 100%;
   }
   .hamburguesa-button {
@@ -142,6 +141,7 @@ button {
     padding: 0.5rem 1rem;
   }
 }
+
 /*INICIO*/
 #inicio {
   font-family: Georgia, 'Times New Roman', Times, serif;

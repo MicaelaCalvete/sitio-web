@@ -2,7 +2,7 @@
   margin: 0%;
   padding: 0%;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 /*estilos de la pag*/
@@ -99,60 +99,17 @@ button {
   border-radius: 10px;
 }
 
-#links:target {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-@media (max-width: 650px) {
-  .NavLinks {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    position: absolute;
-    z-index: 99;
-    width: 100%;
-  }
-  .hamburguesa-button {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  #links {
-    display: none;
-    width: 100%;
-  }
-  #links ul {
-    width: 100%;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  #links ul li {
-    text-align: center;
-  }
-  #links ul li a {
-    padding: 0.5rem 1rem;
-  }
-}
-
 /* formulario*/
 .form {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-top: 3rem;
   margin-bottom: 3rem;
 }
@@ -163,7 +120,7 @@ button {
   padding: 10px 0;
   border-radius: 10px;
   -webkit-box-shadow: 0 0 4px 0 rgba(255, 255, 225, 0.8);
-  box-shadow: 0 0 4px 0 rgba(255, 255, 225, 0.8);
+          box-shadow: 0 0 4px 0 rgba(255, 255, 225, 0.8);
 }
 
 .form__titulo {
@@ -216,11 +173,9 @@ label {
 button {
   background-color: #f1dfd1;
   background-image: linear-gradient(315deg, #f1dfd1 0%, #f6f0ea 74%);
-  /*display: block;*/
   width: 85%;
   height: 40px;
   border: none;
-  /*color: #a0636e;*/
   border-radius: 4px;
   font-size: 16px;
   margin-left: 27px;

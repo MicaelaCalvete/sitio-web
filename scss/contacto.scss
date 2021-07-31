@@ -1,8 +1,7 @@
 * {
   margin: 0%;
   padding: 0%;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /*estilos de la pag*/
@@ -85,15 +84,9 @@ button {
 
 /* formulario*/
 .form {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   margin-top: 3rem;
   margin-bottom: 3rem;
 }
@@ -103,8 +96,7 @@ button {
   width: 30%;
   padding: 10px 0;
   border-radius: 10px;
-  -webkit-box-shadow: 0 0 4px 0 rgba(255, 255, 225, 0.8);
-          box-shadow: 0 0 4px 0 rgba(255, 255, 225, 0.8);
+  box-shadow: 0 0 4px 0 rgba(255, 255, 225, 0.8);
 }
 
 .form__titulo {
@@ -149,7 +141,6 @@ label {
   font-size: 12px;
   position: absolute;
   top: 2px;
-  -webkit-transition: 0.3 ease all;
   transition: 0.3 ease all;
   pointer-events: none;
 }
@@ -157,11 +148,9 @@ label {
 button {
   background-color: #f1dfd1;
   background-image: linear-gradient(315deg, #f1dfd1 0%, #f6f0ea 74%);
-  /*display: block;*/
   width: 85%;
   height: 40px;
   border: none;
-  /*color: #a0636e;*/
   border-radius: 4px;
   font-size: 16px;
   margin-left: 27px;
